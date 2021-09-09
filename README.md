@@ -1,3 +1,3 @@
 # cuckoorooza
 
-Cuckoorooza means corn in Russian.  It's also one of my all time favorite words.
+Cuckoorooza means corn in Russian.  It's also just an awesome word.
