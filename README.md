@@ -19,11 +19,21 @@ Even if the hubris-heavy idea of anything we create being truly *permanent* is a
 
 ## How it's going
 
-This project attempts to introduce the idea of time and access limits to distributed storage artifacts: 
+This project attempts to introduce the idea of time and access limits to distributed storage artifacts. Users will be able to grant access to their files (potentially an NFT use case?) and will be able to assign metadata to the file. Part of the metadata componentry will be the ability to select a retention period (days/months/years). After the retention period elapses, any access keys will be crypt-shredded.  
 
-* files (definitely) 
-* file metadata (maybe - if there's time)
+The following artifacts will be supported in this initial use case:
 
+* Files (definitely) 
+* File metadata (maybe - if there's time)
+
+### Workflow
+
+1. User will connect to cuckooroza 
+2. They will select file(s) from their computer for upload to an IPFS (or Filecoin) node
+3. They will be presented with an interface allowing them to select up to 5 *(<-- arbitrary number here)* metadata fields, as well as an optional retention setting
+4. The content will upload
+5. The user will be presented with a shareable key for access
+6. When the retention period has elapsed, the access will no longer work
 
 ****************
 
@@ -31,7 +41,11 @@ This project attempts to introduce the idea of time and access limits to distrib
 
 Imagining some super well-developed future state ... 
 
+### Taxonomy Governance
+
+What if the user is not a single individual but a group, storing shared documents on a distributed file system. What if there is disagreement on naming conventions or metadata sets? Would a taxonomy DAO be able to solve that problem? DAO members would be able to vote for how best to represent the content that matters to them, for easier search/retrieval and realistic retention policies. Part of the DAO voting process might be contractual obligations (in a legal or regulatory compliance context) for storing this type of content.
+
 ### Commoditizing personal information
 
-it would be great if users of this dApp would be able to hook into the various functions that generate metadata on their behalf (thinking about the social media context here), so that they could control how it is stored, and could conceivably charge for access.  Imagine, rather than Facebook and Google controlling your data and deciding who they get to sell it to and how, *you* are the sole custodian of *your* information, and *you* get to decide who has access to what, and at what price.  I guess such a business model would force the current Facebooks and Googles to drastically alter their own business models to survive in that type of world.  And why not?
+It would be great if users of this dApp would be able to hook into the various functions that generate metadata on their behalf (thinking about the social media context here), so that they could control how it is stored, and could conceivably charge for access.  Imagine a future where, rather than Facebook and Google controlling your data and deciding who they get to sell it to and how, *you* are the sole custodian of *your* information, and *you* get to decide who has access to what, and at what price.
 
